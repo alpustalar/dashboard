@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  border-radius: 15px;
+  row-gap: 12px;
+  padding: 10px;
+
+  .slcloud {
+    transition: .4s ease;
+    position: absolute;
+  }
+
+  .dragActive {
+    transition: .4s ease;
+    position: absolute;
+    text-align: center;
+    line-height: 1.3px;
+  }
+
+  .prevUrls {
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 5px;
+  }
+}

@@ -1,0 +1,1 @@
+export const AppRoutes = ["auth","hesap"] as const;

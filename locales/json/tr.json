@@ -1,0 +1,32 @@
+{
+  "authPage": {
+    "title": "Hesabınıza giriş yapın",
+    "googleLogin": {
+      "error": "Google ile giriş yapılamadı",
+      "loading": "Giriş yapılıyor",
+      "default": "Google ile giriş yapın"
+    },
+    "accountLeft": {
+      "title": "Optimize edilmiş iş akışları ile...",
+      "description": "Hızlı, güvenli ve ölçeklenebilir yönetim deneyimi"
+    }
+  },
+  "homePage": {
+    "subtitle2": "Her adımında sana en iyi deneyimi sunmak için buradayız."
+  },
+  "layout": {
+    "header": {
+      "title": "Yönetim Paneli"
+    },
+    "optionsMenu": {
+      "darkMode": "Karanlık Mod",
+      "screenMode": "Ekran Boyutu"
+    }
+  },
+  "logout": "Çıkış Yap",
+  "serverError": "Sunucu Hatası",
+  "disconnected": "İnternete Bağlı Değilsiniz",
+  "home": "Anasayfa",
+  "welcomeBack": "Tekrar Hoşgeldin",
+  "goNow": "Başla!"
+}

@@ -1,0 +1,32 @@
+{
+  "authPage": {
+    "title": "Sign in to your account",
+    "googleLogin": {
+      "error": "An error occurred during Google sign-in",
+      "loading": "Signing in",
+      "default": "Sign in with Google"
+    },
+    "accountLeft": {
+      "title": "With optimized workflows...",
+      "description": "A fast, secure, and scalable management experience"
+    }
+  },
+  "homePage": {
+    "subtitle2": "Every step of the way, we're here to provide you with the best experience."
+  },
+  "layout": {
+    "header": {
+      "title": "Content Management System"
+    },
+    "optionsMenu": {
+      "darkMode": "Dark Mode",
+      "screenMode": "Screen Mode"
+    }
+  },
+  "logout": "Logout",
+  "serverError": "Server Error",
+  "disconnected": "You are not connected to the internet",
+  "home": "Home",
+  "welcomeBack": "Welcome back",
+  "goNow": "Go Now!"
+}

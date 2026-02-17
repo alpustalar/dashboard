@@ -1,0 +1,109 @@
+@use "sass:color";
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.grecaptcha-badge .recaptcha-badge {
+  visibility: hidden;
+}
+
+.gradient-box {
+  width: 83px;
+  height: 83px;
+  border-radius: 100%;
+  background: linear-gradient(180deg,
+          rgba(48, 171, 68, 0) 15%,
+          rgb(44, 141, 133) 99%);
+  animation: rotate 8s linear infinite;
+
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #008053, #635bad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.rotateIcon {
+  animation: rotate 8s linear infinite;
+}
+
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container-bg {
+  background-image: url("../../public/background-blur.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(20, 26, 33, 0.91);
+    z-index: -1;
+  }
+}
+
+
+.closeIcon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  color: gray;
+  font-size: 35px;
+  transition: all 0.2s linear;
+  transform-origin: center;
+  display: inline;
+
+  &:hover {
+    color: color.adjust(#808080, $lightness: 100%);
+    transform: rotate(90deg);
+  }
+}
+
+
+.list-item-button {
+
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-left: 1px solid;
+    height: 53px;
+    bottom: 15px;
+    border-radius: 2px;
+    left: 25px;
+    color: rgb(48, 199, 134);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid;
+    width: 10px;
+    bottom: 14px;
+    border-radius: 100px;
+    left: 25px;
+    color: rgb(48, 199, 134);
+  }
+}
